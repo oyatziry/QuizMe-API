@@ -15,6 +15,10 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
+  deck: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Deck'
+  }]
 }, {timestamps: true});
 
 const User = mongoose.model('User', UserSchema);
