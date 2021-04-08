@@ -12,7 +12,8 @@ const FlashcardSchema = new Schema({
   },
   deck: {
     type: Schema.Types.ObjectId,
-    ref: 'Deck'
+    ref: 'Deck', 
+    required: true
   }
 });
 

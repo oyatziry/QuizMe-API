@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 const DeckSchema = new Schema({
   flashcards: [{
     type: Schema.Types.ObjectId,
-    ref: 'Flashcard'
+    ref: 'Flashcard',
+    required: true
   }],
   user: [{
     type: Schema.Types.ObjectId,
