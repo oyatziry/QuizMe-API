@@ -1,13 +1,45 @@
 {
   "decks": [{
-    "name": "Math",
+    "name": "Elementary Math",
     "flashcards": [
       {
-      "front": "2+2",
-      "back": "4"
+        "front": "1+1",
+        "back": "2"
+      },{
+        "front": "2+2",
+        "back": "4"
       },{
         "front": "3+3",
         "back": "6"
+      },{
+        "front": "4+4",
+        "back": "8"
+      },{
+        "front": "5+5",
+        "back": "10"
+      }
+    ]
+  }, {
+    "name": "Spanish",
+    "flashcards": [
+      {
+        "front": "House",
+        "back": "Casa"
+      },{
+        "front": "Pet",
+        "back": "Mascota"
+      },{
+        "front": "Hello",
+        "back": "Hola"
+      },{
+        "front": "Goodbye",
+        "back": "Adios"
+      },{
+        "front": "Please",
+        "back": "Gracias"
+      },{
+        "front": "Please",
+        "back": "Lo Siento"
       }
     ]
   }]
