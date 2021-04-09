@@ -10,11 +10,6 @@ const FlashcardSchema = new Schema({
     type: String,
     required: true
   },
-  deck: {
-    type: Schema.Types.ObjectId,
-    ref: 'Deck', 
-    required: true
-  }
 });
 
 const Flashcard = mongoose.model('Flashcard', FlashcardSchema);
