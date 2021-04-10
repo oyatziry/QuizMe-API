@@ -9,7 +9,7 @@ const create = (req,res) => {
 }
 
 const find = (req, res) => {
-  db.User.findOne({ username: req.body }, (err, foundUser) => {
+  db.User.findOne(req.body , (err, foundUser) => {
     if (err) console.log('Error in finding user: ', err);
 
     res.status(200).json({ user: foundUser });
