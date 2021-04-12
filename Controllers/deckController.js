@@ -20,14 +20,6 @@ const show = (req, res) => {
     })
 }
 
-// const create = (req, res) => {
-//   db.Deck.create(req.body, (err, savedDeck) => {
-//     if (err) console.log('Error in creating Deck: ', err);
-
-//     res.status(201).json({ deck: savedDeck })
-//   });
-// }
-
 module.exports = {
   all,
   show,
